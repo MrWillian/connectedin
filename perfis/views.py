@@ -9,10 +9,8 @@ def index(request):
 
 def exibir(request, perfil_id):
   print 'ID do perfil recebido: %s' % (perfil_id)
-  
-  # perfil = Perfil()
-  # if perfil_id == '1':
-  #   perfil = Perfil('Flavio Almeida', 'flavio@flavio.com.br', '77777', 'Caelum')
-
   perfil = Perfil.objects.get(id=perfil_id)
   return render(request, 'perfil.html', {"perfil" : perfil})
+
+def convidar(request, perfil_id):
+  pass
