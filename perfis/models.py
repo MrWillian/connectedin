@@ -10,4 +10,3 @@ class Peril(object):
     self.email = email
     self.telefone = telefone
     self.nome_empresa = nome_empresa
-    
