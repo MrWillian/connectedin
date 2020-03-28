@@ -2,5 +2,6 @@ db.sqlite3
 perfis/__init__.pyc
 perfis/admin.pyc
 perfis/models.pyc
+perfis/urls.pyc
 
 .vscode
