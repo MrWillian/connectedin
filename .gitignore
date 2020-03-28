@@ -1,0 +1,10 @@
+db.sqlite3
+perfis/__init__.pyc
+perfis/admin.pyc
+perfis/models.pyc
+perfis/views.pyc
+perfis/urls.pyc
+
+perfis/migrations/0001_initial.pyc
+
+.vscode/
