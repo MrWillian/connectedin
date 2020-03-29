@@ -1,5 +1,6 @@
-from django.conf.urls import patterns, url
+from django.conf.urls import url
+from views import RegistrarUsuarioView
 
 urlpatterns = [
-  url(r'^registrar/$', ???, name="registrar"), 
+  url(r'^registrar/$', RegistrarUsuarioView.as_view(), name="registrar"), 
 ]
