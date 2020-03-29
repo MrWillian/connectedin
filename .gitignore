@@ -9,10 +9,14 @@ perfis/urls.pyc
 perfis/migrations/__init__.pyc
 perfis/migrations/0001_initial.pyc
 perfis/migrations/0002_perfil_contatos.pyc
+perfis/migrations/0003_auto_20200329_1520.pyc
+perfis/migrations/0004_auto_20200329_2328.pyc
 
 usuarios/__init__.pyc
 usuarios/urls.pyc
 usuarios/admin.pyc
 usuarios/models.pyc
+usuarios/views.pyc
+usuarios/forms.pyc
 
 .vscode/
