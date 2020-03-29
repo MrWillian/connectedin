@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render, redirect
 from perfis.models import Perfil, Convite
+from django.contrib.auth.decorators import login_required
 
 def index(request):
   return render(request, 'index.html', {'perfis' : Perfil.objects.all(), 'perfil_logado': get_perfil_logado(request) })
@@ -25,4 +26,4 @@ def aceitar(request, convite_id):
   return redirect('index')
 
 def get_perfil_logado(request):
-  return Perfil.objects.get(id=1)
+  return Perfil.objects.get(id=2)
