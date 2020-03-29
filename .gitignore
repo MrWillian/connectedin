@@ -1,4 +1,5 @@
 db.sqlite3
+
 perfis/__init__.pyc
 perfis/admin.pyc
 perfis/models.pyc
@@ -8,5 +9,10 @@ perfis/urls.pyc
 perfis/migrations/__init__.pyc
 perfis/migrations/0001_initial.pyc
 perfis/migrations/0002_perfil_contatos.pyc
+
+usuarios/__init__.pyc
+usuarios/urls.pyc
+usuarios/admin.pyc
+usuarios/models.pyc
 
 .vscode/
