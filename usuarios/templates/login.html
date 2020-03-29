@@ -1,0 +1,31 @@
+{% extends "base_usuario.html" %}
+
+{% block body %}
+
+  <form role="form" method="POST" action="{% url 'django.contrib.auth.views.login' %}" class="form-signin">
+    {% csrf_token %}
+
+    <h2 class="form-signin-heading">Login</h2>
+
+    <input type="text" id="id_username" name="username" class="form-control" placeholder="Nome"
+      required autofocus>
+
+    <input type="text" id="id_password" name="password" class="form-control" placeholder="Senha"
+    required>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">
+      Login
+    </button>
+
+    <input type="hidden" name="text" value="{{ next }}" />
+
+    {% if form.errors %}
+      <div class="alert alert-danger">
+        <button type="button" class="close">&times;</button>
+        Por favor, verifique o Email e/ou Senha informados
+      </div>
+    {% endif %}
+
+
+  </form>
+{% endblock %}
