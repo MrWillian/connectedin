@@ -9,7 +9,7 @@ Be shure that you have Django and Django compose in your computer. And, execute 
 
 Before it, you can run the application in your Browser:
 
-[http://127.0.0.1:8000/login](http://127.0.0.1:8000/login)
+[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 
 ## Screenshots
