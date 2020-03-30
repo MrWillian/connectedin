@@ -2,19 +2,18 @@
 
 A social media produced in Python with Django Framework
 
+## Getting Started
+Be shure that you have Django and Django compose in your computer. And, execute it:
+
+> docker-compose build && docker-compose up
+
+Before it, you can run the application in your Browser:
+
+[http://127.0.0.1:8000/login](http://127.0.0.1:8000/login)
+
+
 ## Screenshots
 
-<<<<<<< HEAD
-![Register](https://imgur.com/zhbbvBr)
-
-![Index Without Invite](https://imgur.com/XYAWUc2)
-
-![Index with Invite](https://imgur.com/lIivztI)
-
-![Index with Accepted Invite](https://imgur.com/lS6ELTl)
-
-![Perfil](https://imgur.com/IMuVto3)
-=======
 ![Register](https://i.imgur.com/zhbbvBr.jpg)
 
 ![Index Without Invite](https://i.imgur.com/XYAWUc2.jpg)
@@ -24,4 +23,3 @@ A social media produced in Python with Django Framework
 ![Index with Accepted Invite](https://i.imgur.com/lS6ELTl.jpg)
 
 ![Perfil](https://i.imgur.com/IMuVto3.jpg)
->>>>>>> 70fe834fd44d3b41dba9b28be43b897c4cd182ab
