@@ -4,8 +4,7 @@ A social media produced in Python with Django Framework
 
 ## Screenshots
 
-![Register](https://imgur.com/lS6ELTl)
-[Imgur](https://imgur.com/lS6ELTl)
+![Register](https://i.imgur.com/lS6ELTl.jpg)
 
 ![Index Without Invite](https://imgur.com/XYAWUc2)
 
