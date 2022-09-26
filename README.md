@@ -9,7 +9,7 @@ A social media produced in Python with Django Framework
  - Database: SQLite
 
 ## Getting Started
-Be shure that you have Django and Django compose in your computer. And, execute it:
+Be shure that you have Docker and docker-compose in your computer. And, execute it:
 
 > docker-compose build && docker-compose up
 
